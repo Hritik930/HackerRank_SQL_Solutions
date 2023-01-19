@@ -1,5 +1,5 @@
 # HackerRank Solutions
-Questions and solutions
+Questions and solutions, mostly original, some partial hints/solutions used for SQL
 ## Index
 - [SQL](#sql)
   - [Basic Select](#basic-select)
