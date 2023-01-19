@@ -2,12 +2,66 @@
 Questions and solutions
 ## Index
 - [SQL](#sql)
+  - [Basic Select](#basic-select)
+    - [Higher Than 75 Marks](#higher-than-75-marks)
+  - [Alternative Queries](#alternative-queries)
+    - [Draw the Triangle 1](#draw-the-triangle-1)
+  - [Basic Join](#basic-join)
+    - [Challenges](#challenges)
+  
 ## SQL
-### Challenges
+### Basic Select
+#### Easy
+##### Higher Than 75 Marks
+
+Query the Name of any student in STUDENTS who scored higher than  Marks. Order your output by the last three characters of each name. If two or more students both have names ending in the same last three characters (i.e.: Bobby, Robby, etc.), secondary sort them by ascending ID.
+
+###### Input Format
+The STUDENTS table is described as follows:  The Name column only contains uppercase (A-Z) and lowercase (a-z) letters.
+
+| Column      | Type        |  
+| ----------- | ----------- |
+| ID          | Integer     |
+| Name        | String      |
+| Marks       | Integer     |
+
+###### Solution
+```SQL
+SELECT Name
+FROM STUDENTS
+WHERE Marks > 75
+ORDER BY RIGHT(Name, 3), ID ASC
+```
+### Alternative Queries
+#### Easy
+##### Draw the Triangle 1
+P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
+```
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+```
+
+Write a query to print the pattern P(20).
+
+###### Solution
+
+```SQL
+SET @P = '* ';
+SET @i = 21;
+SELECT REPEAT(@P, @i := @i - 1)
+FROM INFORMATION_SCHEMA.TABLES LIMIT 20;
+```
+
+### Basic Join
+#### Mediium
+##### Challenges
 
 Julia asked her students to create some coding challenges. Write a query to print the hacker_id, name, and the total number of challenges created by each student. Sort your results by the total number of challenges in descending order. If more than one student created the same number of challenges, then sort the result by hacker_id. If more than one student created the same number of challenges and the count is less than the maximum number of challenges created, then exclude those students from the result.
 
-#### Input Format
+###### Input Format
 
 The following tables contain challenge data:
 - Hackers: The hacker_id is the id of the hacker, and name is the name of the hacker.
@@ -24,7 +78,7 @@ The following tables contain challenge data:
 | challenge_id | Integer     |
 | hacker_id    | Integer     |
 
-#### Solution
+###### Solution
 
 ```SQL
 SELECT Hackers.hacker_id, Hackers.name, COUNT(Challenges.challenge_id)
