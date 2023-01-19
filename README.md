@@ -1,4 +1,5 @@
 # HackerRank Solutions
+Questions and solutions
 ## Index
 - [SQL](#sql)
 ## SQL
