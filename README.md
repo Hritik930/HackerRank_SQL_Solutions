@@ -34,6 +34,7 @@ The questions and mostly original solutions. Some hints and partial solutions we
 ## SQL
 ### Basic Select
 #### Revising the Select Query
+
 The CITY table is described as follows:
 
 | Column      | Type         |  
@@ -173,7 +174,7 @@ SELECT * FROM ((SELECT CITY, LENGTH(CITY)
 Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
 
 ###### Solution
-*MySql*
+*MySQL*
 
 ```SQL
 SELECT DISTINCT CITY 
@@ -190,7 +191,7 @@ OR LEFT(CITY,1) = 'U';
 Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
 
 ###### Solution
-*MySql*
+*MySQL*
 
 ```SQL
 SELECT DISTINCT CITY FROM STATION 
@@ -206,6 +207,7 @@ OR RIGHT(CITY,1) = 'U';
 Query the Name of any student in STUDENTS who scored higher than  Marks. Order your output by the last three characters of each name. If two or more students both have names ending in the same last three characters (i.e.: Bobby, Robby, etc.), secondary sort them by ascending ID.
 
 ###### Input Format
+
 The STUDENTS table is described as follows:  The Name column only contains uppercase (A-Z) and lowercase (a-z) letters.
 
 | Column      | Type        |  
@@ -215,7 +217,7 @@ The STUDENTS table is described as follows:  The Name column only contains upper
 | Marks       | Integer     |
 
 ###### Solution: MySQL
-*MySql*
+*MySQL*
 
 ```SQL
 SELECT Name
@@ -223,14 +225,45 @@ FROM STUDENTS
 WHERE Marks > 75
 ORDER BY RIGHT(Name, 3), ID ASC;
 ```
+
 #### Employees
+
 ##### Employee Names: Easy
 ##### Employee Salaries: Easy
 
 ### Aggregation
+
+The CITY table is described as follows: 
+
+| Column      | Type         |  
+| ----------- | ------------ |
+| ID          | NUMBER       |
+| NAME        | VARCHAR2(17) |
+| COUNTRYCODE | VARCHAR2(3)  |
+| DISTRICT    | VARCHAR2(20) |
+| POPULATION  | NUMBER       |
+
 ##### Revising Aggregations - The Sum Function: Easy
+
+Query the total population of all cities in CITY where District is California.
+
+###### Solution
+*MySQL*
+
+```SQL
+SELECT SUM(POPULATION) FROM CITY WHERE DISTRICT = 'California';
+```
+
 ##### Revising Aggregations - Averages: Easy
 
+Query the average population for all cities in CITY, rounded down to the nearest integer.
+
+###### Solution
+*MySQL*
+
+```SQL
+SELECT AVG(DECIMAL(POPULATION,10,2)) FROM CITY WHERE DISTRICT = 'California';
+```
 ### Basic Join
 #### Challenges: Medium
 
@@ -254,7 +287,7 @@ The following tables contain challenge data:
 | hacker_id    | Integer     |
 
 ###### Solution
-*MySql*
+*MySQL*
 
 ```SQL
 SELECT Hackers.hacker_id, Hackers.name, COUNT(Challenges.challenge_id)
