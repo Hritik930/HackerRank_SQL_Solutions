@@ -142,9 +142,65 @@ SELECT CITY, STATE FROM STATION;
 
 ##### Weather Observation Station 4: Easy
 
+Find the difference between the total number of CITY entries in the table and the number of distinct CITY entries in the table.
+
+###### Solution
+*MySQL*
+
+```SQL
+SELECT COUNT(CITY) - COUNT(DISTINCT CITY) FROM STATION;
+```
+
 ##### Weather Observation Station 5: Easy
+
+Query the two cities in STATION with the shortest and longest CITY names, as well as their respective lengths (i.e.: number of characters in the name). If there is more than one smallest or largest city, choose the one that comes first when ordered alphabetically.
+
+###### Solution
+*MySQL*
+
+```SQL
+SELECT * FROM ((SELECT CITY, LENGTH(CITY) 
+                FROM STATION 
+                ORDER BY LENGTH(CITY) asc, CITY limit 1)
+                UNION
+               (SELECT CITY, LENGTH(CITY) 
+                FROM STATION 
+                ORDER BY LENGTH(CITY) desc, CITY limit 1));
+```
+
 ##### Weather Observation Station 6: Easy
+
+Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+
+###### Solution
+*MySql*
+
+```SQL
+SELECT DISTINCT CITY 
+FROM STATION 
+WHERE LEFT(CITY,1) = 'A' 
+OR LEFT(CITY,1) = 'E' 
+OR LEFT(CITY,1) = 'I' 
+OR LEFT(CITY,1) = 'O' 
+OR LEFT(CITY,1) = 'U';
+```
+
 ##### Weather Observation Station 7: Easy
+
+Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
+
+###### Solution
+*MySql*
+
+```SQL
+SELECT DISTINCT CITY FROM STATION 
+WHERE RIGHT(CITY,1) = 'A' 
+OR RIGHT(CITY,1) = 'E' 
+OR RIGHT(CITY,1) = 'I' 
+OR RIGHT(CITY,1) = 'O' 
+OR RIGHT(CITY,1) = 'U';
+```
+
 #### Higher Than 75 Marks: Easy
 
 Query the Name of any student in STUDENTS who scored higher than  Marks. Order your output by the last three characters of each name. If two or more students both have names ending in the same last three characters (i.e.: Bobby, Robby, etc.), secondary sort them by ascending ID.
