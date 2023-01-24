@@ -335,6 +335,30 @@ FROM INFORMATION_SCHEMA.TABLES LIMIT 20;
 ```
 
 ##### Draw the Triangle 2: Easy
+
+
+P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
+
+```
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+```
+
+Write a query to print the pattern P(20).
+
+###### Solution
+
+*Oracle*
+
+```SQL
+SELECT RPAD('*', LEVEL * 2, ' *')
+FROM DUAL
+CONNECT BY LEVEL <= 20;
+```
+
 #### Print Prime Numbers: Medium
 
 Write a query to print all prime numbers less than or equal to . Print your result on a single line, and use the ampersand (&) character as your separator (instead of a space).
