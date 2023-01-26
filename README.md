@@ -12,6 +12,7 @@ The questions and mostly original solutions. Some hints and partial solutions we
       - [Japanese Cities' Names](#japanese-cities-names-easy)
     - [Weather Observation Station](#weather-observation-station) 
       - [Weather Observation Station 1](#weather-observation-station-1-easy)
+      - [Weather Observation Station 2](#weather-observation-station-2-easy)
       - [Weather Observation Station 3](#weather-observation-station-3-easy)
       - [Weather Observation Station 4](#weather-observation-station-4-easy)
       - [Weather Observation Station 5](#weather-observation-station-5-easy)
@@ -129,6 +130,20 @@ Query a list of CITY and STATE from the STATION table.
 
 ```SQL
 SELECT CITY, STATE FROM STATION;
+```
+
+##### Weather Observation Station 2: Easy
+
+Query the following two values from the STATION table:
+1. The sum of all values in LAT_N rounded to a scale of 2 decimal places.
+2.  The sum of all values in LONG_W rounded to a scale of 2 decimal places.
+
+###### Solution`
+*Oracle*
+
+```SQL
+SELECT ROUND(SUM(LAT_N), 2), ROUND(SUM(LONG_W), 2)
+FROM STATION;
 ```
 
 ##### Weather Observation Station 3: Easy
