@@ -1,5 +1,6 @@
 # HackerRank Solutions
-The questions and mostly original solutions. Some hints and partial solutions were referenced after multiple attempts at the more difficult problems.
+Problems and solutions to challenges on the HackerRank platform
+
 ## Index
 - [SQL](#sql)
   - [Basic Select](#basic-select)
@@ -18,6 +19,7 @@ The questions and mostly original solutions. Some hints and partial solutions we
       - [Weather Observation Station 5](#weather-observation-station-5-easy)
       - [Weather Observation Station 6](#weather-observation-station-6-easy)
       - [Weather Observation Station 7](#weather-observation-station-7-easy)
+      - [Weather Observation Station 8](#weather-observation-station-8-easy)
     - [Higher Than 75 Marks](#higher-than-75-marks-easy)
     - [Employees](#employees)
       - [Employee Names](#employee-names-easy)
@@ -216,6 +218,19 @@ OR RIGHT(CITY,1) = 'E'
 OR RIGHT(CITY,1) = 'I' 
 OR RIGHT(CITY,1) = 'O' 
 OR RIGHT(CITY,1) = 'U';
+```
+
+##### Weather Observation Station 8: Easy
+
+Query the list of CITY names from STATION which have vowels (i.e., a, e, i, o, and u) as both their first and last characters. Your result cannot contain duplicates.
+
+###### Solution
+*Oracle*
+
+```SQL
+SELECT DISTINCT CITY
+FROM STATION
+WHERE REGEXP_LIKE(UPPER(CITY), '^(A|E|I|O|U).*(A|E|I|O|U)$');
 ```
 
 #### Higher Than 75 Marks: Easy
