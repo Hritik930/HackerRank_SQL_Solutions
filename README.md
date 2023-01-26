@@ -20,6 +20,7 @@ Problems and solutions to challenges on the HackerRank platform
       - [Weather Observation Station 6](#weather-observation-station-6-easy)
       - [Weather Observation Station 7](#weather-observation-station-7-easy)
       - [Weather Observation Station 8](#weather-observation-station-8-easy)
+      - [Weather Observation Station 9](#weather-observation-station-9-easy)
     - [Higher Than 75 Marks](#higher-than-75-marks-easy)
     - [Employees](#employees)
       - [Employee Names](#employee-names-easy)
@@ -231,6 +232,19 @@ Query the list of CITY names from STATION which have vowels (i.e., a, e, i, o, a
 SELECT DISTINCT CITY
 FROM STATION
 WHERE REGEXP_LIKE(UPPER(CITY), '^(A|E|I|O|U).*(A|E|I|O|U)$');
+```
+
+##### Weather Observation Station 9: Easy
+
+Query the list of CITY names from STATION that do not start with vowels. Your result cannot contain duplicates.
+
+###### Solution
+*Oracle* 
+
+```SQL
+SELECT DISTINCT CITY
+FROM STATION
+WHERE REGEXP_LIKE(UPPER(CITY), '^[^(A|E|I|O|U)]');
 ```
 
 #### Higher Than 75 Marks: Easy
