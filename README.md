@@ -1,7 +1,7 @@
 <h1 align="center">
-  <a href="https://www.hackerrank.com/zacharyromepera1"><img src="https://repository-images.githubusercontent.com/231893793/cec60480-04a9-11eb-80c4-df7359d94047" alt="LeetHub - Automatically sync your code to GitHub." width="400"></a>
+  <a href="https://www.hackerrank.com/zacharyromepera1"><img src="https://repository-images.githubusercontent.com/231893793/cec60480-04a9-11eb-80c4-df7359d94047" alt="LeetHub - Automatically sync your code to GitHub." width="200"></a>
   <br>
-  SQL problems and solutions for the <a href="https://www.hackerrank.com">HackerRank</a> platform.
+  Solutions to SQL challenges on <a href="https://www.hackerrank.com">HackerRank</a>
   <br>
   <br>
 </h1>
