@@ -1,2 +1,3 @@
-SQL/* linguist-documentation=false
-SQL/* linguist-vendored
+*.sql linguist-detectable=true
+SQL/MySQL/*.sql linguist-language=sql
+SQL/Oracle/PLSQL/*.sql linguist-language=plsql
