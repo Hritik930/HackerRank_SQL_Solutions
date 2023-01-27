@@ -1,3 +1,4 @@
 *.sql linguist-detectable=true
 SQL/MySQL/*.sql linguist-language=sql
+SQL/Oracle/*.sql linguist-language=sql
 SQL/Oracle/PLSQL/*.sql linguist-language=plsql
