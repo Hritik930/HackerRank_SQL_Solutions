@@ -25,6 +25,7 @@
     - [Weather Observation Station 8](#weather-observation-station-8-easy)
     - [Weather Observation Station 9](#weather-observation-station-9-easy)
     - [Weather Observation Station 10](#weather-observation-station-10-easy)
+    - [Weather Observation Station 11](#weather-observation-station-11-easy)
   - [Higher Than 75 Marks](#higher-than-75-marks-easy)
   - [Employees](#employees)
     - [Employee Names](#employee-names-easy)
@@ -261,6 +262,19 @@ Query the list of CITY names from STATION that do not end with vowels. Your resu
 SELECT DISTINCT CITY
 FROM STATION
 WHERE REGEXP_LIKE(UPPER(CITY), '[^(A|E|I|O|U)]$');
+```
+
+#### Weather Observation Station 11: Easy
+
+Query the list of CITY names from STATION that either do not start with vowels or do not end with vowels. Your result cannot contain duplicates.
+
+##### Solution
+*Oracle* 
+
+```SQL
+SELECT DISTINCT CITY
+FROM STATION
+WHERE REGEXP_LIKE(UPPER(CITY), '^[^(A|E|I|O|U)]|[^(A|E|I|O|U)]$');
 ```
 
 ### Higher Than 75 Marks: Easy
