@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="https://www.hackerrank.com/zacharyromepera1"><img src="https://repository-images.githubusercontent.com/231893793/cec60480-04a9-11eb-80c4-df7359d94047" alt="LeetHub - Automatically sync your code to GitHub." width="200"></a>
   <br>
-  Solutions to SQL challenges on <a href="https://www.hackerrank.com">HackerRank</a>
+  Solutions to SQL Challenges on <a href="https://www.hackerrank.com">HackerRank</a>
   <br>
   <br>
 </h1>
@@ -61,7 +61,9 @@ Query all columns for all American cities in the CITY table with populations lar
 *MySQL*
 
 ```SQL
-SELECT * FROM CITY WHERE COUNTRYCODE = 'USA' AND POPULATION > 100000;
+SELECT * FROM CITY 
+WHERE COUNTRYCODE = 'USA' 
+  AND POPULATION > 100000;
 ```
 #### Revising the Select Query 2: Easy
 Query the NAME field for all American cities in the CITY table with populations larger than 120000. The COUNTRYCODE for America is USA.
@@ -70,7 +72,10 @@ Query the NAME field for all American cities in the CITY table with populations 
 *MySQL*
 
 ```SQL
-SELECT NAME FROM CITY WHERE POPULATION > 120000 AND COUNTRYCODE = 'USA';
+SELECT NAME 
+FROM CITY 
+WHERE POPULATION > 120000 
+  AND COUNTRYCODE = 'USA';
 ```
 
 #### Select All: Easy
@@ -80,7 +85,8 @@ Query all columns (attributes) for every row in the CITY table.
 *MySQL*
 
 ```SQL
-SELECT * FROM CITY;
+SELECT * 
+FROM CITY;
 ```
 
 #### Select By Id: Easy
@@ -90,7 +96,8 @@ Query all columns for a city in CITY with the ID 1661.
 *MySQL*
 
 ```SQL
-SELECT * FROM CITY WHERE ID = 1661;
+SELECT * 
+FROM CITY WHERE ID = 1661;
 ```
 
 #### Japanese Cities' Attributes: Easy
@@ -161,7 +168,8 @@ Query a list of CITY names from STATION for cities that have an even ID number. 
 *MySQL*
 
 ```SQL
-SELECT CITY, STATE FROM STATION;
+SELECT CITY, STATE 
+FROM STATION;
 ```
 
 #### Weather Observation Station 4: Easy
@@ -172,7 +180,8 @@ Find the difference between the total number of CITY entries in the table and th
 *MySQL*
 
 ```SQL
-SELECT COUNT(CITY) - COUNT(DISTINCT CITY) FROM STATION;
+SELECT COUNT(CITY) - COUNT(DISTINCT CITY) 
+FROM STATION;
 ```
 
 #### Weather Observation Station 5: Easy
@@ -203,10 +212,10 @@ Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from 
 SELECT DISTINCT CITY 
 FROM STATION 
 WHERE LEFT(CITY,1) = 'A' 
-OR LEFT(CITY,1) = 'E' 
-OR LEFT(CITY,1) = 'I' 
-OR LEFT(CITY,1) = 'O' 
-OR LEFT(CITY,1) = 'U';
+  OR LEFT(CITY,1) = 'E' 
+  OR LEFT(CITY,1) = 'I' 
+  OR LEFT(CITY,1) = 'O' 
+  OR LEFT(CITY,1) = 'U';
 ```
 
 #### Weather Observation Station 7: Easy
@@ -219,10 +228,10 @@ Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Yo
 ```SQL
 SELECT DISTINCT CITY FROM STATION 
 WHERE RIGHT(CITY,1) = 'A' 
-OR RIGHT(CITY,1) = 'E' 
-OR RIGHT(CITY,1) = 'I' 
-OR RIGHT(CITY,1) = 'O' 
-OR RIGHT(CITY,1) = 'U';
+  OR RIGHT(CITY,1) = 'E' 
+  OR RIGHT(CITY,1) = 'I' 
+  OR RIGHT(CITY,1) = 'O' 
+  OR RIGHT(CITY,1) = 'U';
 ```
 
 #### Weather Observation Station 8: Easy
@@ -326,7 +335,9 @@ Query the total population of all cities in CITY where District is California.
 *MySQL*
 
 ```SQL
-SELECT SUM(POPULATION) FROM CITY WHERE DISTRICT = 'California';
+SELECT SUM(POPULATION) 
+FROM CITY 
+WHERE DISTRICT = 'California';
 ```
 
 #### Revising Aggregations - Averages: Easy
@@ -337,7 +348,9 @@ Query the average population for all cities in CITY, rounded down to the nearest
 *MySQL*
 
 ```SQL
-SELECT AVG(DECIMAL(POPULATION,10,2)) FROM CITY WHERE DISTRICT = 'California';
+SELECT AVG(DECIMAL(POPULATION,10,2)) 
+FROM CITY 
+WHERE DISTRICT = 'California';
 ```
 ## Basic Join
 ### Challenges: Medium
