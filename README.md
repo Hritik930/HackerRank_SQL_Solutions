@@ -97,7 +97,8 @@ Query all columns for a city in CITY with the ID 1661.
 
 ```SQL
 SELECT * 
-FROM CITY WHERE ID = 1661;
+FROM CITY 
+WHERE ID = 1661;
 ```
 
 #### Japanese Cities' Attributes: Easy
@@ -108,7 +109,8 @@ Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE f
 *MySQL*
 
 ```SQL
-SELECT * FROM CITY WHERE COUNTRYCODE = 'JPN';
+SELECT * FROM CITY 
+WHERE COUNTRYCODE = 'JPN';
 ```
 
 #### Japanese Cities' Names: Easy
@@ -119,7 +121,9 @@ Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE fo
 *MySQL*
 
 ```SQL
-SELECT NAME FROM CITY WHERE COUNTRYCODE = 'JPN';
+SELECT NAME 
+FROM CITY 
+WHERE COUNTRYCODE = 'JPN';
 ```
 ### Weather Observation Station
 
@@ -143,7 +147,8 @@ Query a list of CITY and STATE from the STATION table.
 *MySQL*
 
 ```SQL
-SELECT CITY, STATE FROM STATION;
+SELECT CITY, STATE 
+FROM STATION;
 ```
 
 #### Weather Observation Station 2: Easy
