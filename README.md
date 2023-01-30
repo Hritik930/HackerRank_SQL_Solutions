@@ -10,7 +10,7 @@
 <h1 align="center">
   <a href="https://www.hackerrank.com/zacharyromepera1"><img src="https://repository-images.githubusercontent.com/231893793/cec60480-04a9-11eb-80c4-df7359d94047" alt="LeetHub - Automatically sync your code to GitHub." width="200"></a>
   <br>
-  Solutions to SQL Challenges on <a href="https://www.hackerrank.com">HackerRank</a>
+  <a href="https://www.hackerrank.com">HackerRank</a> SQL Challenge Solutions
   <br>
   <br>
 </h1>
