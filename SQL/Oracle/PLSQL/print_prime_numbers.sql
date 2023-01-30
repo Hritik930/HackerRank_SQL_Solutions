@@ -1,3 +1,7 @@
+/***************************
+ * Author: Zachary Perales *
+ ***************************/
+
 SET SERVEROUTPUT ON
 
 CREATE OR REPLACE PROCEDURE "CALCULATE_PRIMES"(limit IN NUMBER)

@@ -1,6 +1,6 @@
-/**********************************************************************************
- * Query the total population of all cities in CITY where District is California. *
- **********************************************************************************/
+/***************************
+ * Author: Zachary Perales *
+ ***************************/
 
 SELECT SUM(POPULATION) 
 FROM CITY 
