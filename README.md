@@ -45,6 +45,7 @@
 - [Aggregation](#aggregation)
   - [Revising Aggregations - The Sum Function](#revising-aggregations-\--the-sum-function-easy)
   - [Revising Aggregations - Averages](#revising-aggregations-\--averages-easy)
+  - [Average Population](#average-population-easy)
 - [Basic Join](#basic-join)
   - [Challenges](#challenges-medium)
 - [Alternative Queries](#alternative-queries)
