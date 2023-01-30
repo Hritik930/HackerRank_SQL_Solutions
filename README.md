@@ -1,8 +1,8 @@
-![License](https://img.shields.io/github/license/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=for-the-badge)
-![HitCount](https://img.shields.io/endpoint?color=%2329BA5B&style=for-the-badge&url=https%3A%2F%2Fhits.dwyl.com%2Faardzark%2Fhackerrank_sql_solutions.json)
-![Languages](https://img.shields.io/github/languages/count/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=for-the-badge)
-![Top Language](https://img.shields.io/github/languages/top/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=for-the-badge)
+![License](https://img.shields.io/github/license/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=flat)
+![HitCount](https://img.shields.io/endpoint?color=%2329BA5B&style=flat&url=https%3A%2F%2Fhits.dwyl.com%2Faardzark%2Fhackerrank_sql_solutions.json)
+![Languages](https://img.shields.io/github/languages/count/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=flat)
+![Top Language](https://img.shields.io/github/languages/top/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=flat)
+![Last Commit](https://img.shields.io/github/last-commit/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=flat)
 ![File Count](https://img.shields.io/github/directory-file-count/aardzark/HackerRank_SQL?color=%252329BA5B)
   
   
