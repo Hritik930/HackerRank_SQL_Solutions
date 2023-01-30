@@ -1,3 +1,12 @@
+![License](https://img.shields.io/github/license/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=for-the-badge)
+![HitCount](https://img.shields.io/endpoint?color=%2329BA5B&style=for-the-badge&url=https%3A%2F%2Fhits.dwyl.com%2Faardzark%2Fhackerrank_sql_solutions.json)
+![Languages](https://img.shields.io/github/languages/count/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=for-the-badge)
+![Top Language](https://img.shields.io/github/languages/top/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/aardzark/hackerrank_sql_solutions?color=%2329BA5B&style=for-the-badge)
+![File Count](https://img.shields.io/github/directory-file-count/aardzark/HackerRank_SQL?color=%252329BA5B)
+  
+  
+
 <h1 align="center">
   <a href="https://www.hackerrank.com/zacharyromepera1"><img src="https://repository-images.githubusercontent.com/231893793/cec60480-04a9-11eb-80c4-df7359d94047" alt="LeetHub - Automatically sync your code to GitHub." width="200"></a>
   <br>
