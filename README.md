@@ -182,7 +182,7 @@ Query the list of CITY names from STATION that either do not start with vowels o
 
 #### [Solution: Oracle](./SQL/Oracle/weather_observation_station_11.sql)
 
-### Weather Observation Station 11: Easy
+### Weather Observation Station 12: Easy
 
 Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. Your result cannot contain duplicates.
 
