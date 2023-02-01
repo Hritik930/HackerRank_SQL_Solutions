@@ -38,6 +38,7 @@
     - [Weather Observation Station 9](#weather-observation-station-9-easy)
     - [Weather Observation Station 10](#weather-observation-station-10-easy)
     - [Weather Observation Station 11](#weather-observation-station-11-easy)
+	- [Weather Observation Station 12](#weather-observation-station-12-easy)
   - [Higher Than 75 Marks](#higher-than-75-marks-easy)
   - [Employees](#employees)
     - [Employee Names](#employee-names-easy)
@@ -179,8 +180,13 @@ Query the list of CITY names from STATION that do not end with vowels. Your resu
 
 Query the list of CITY names from STATION that either do not start with vowels or do not end with vowels. Your result cannot contain duplicates.
 
-
 #### [Solution: Oracle](./SQL/Oracle/weather_observation_station_11.sql)
+
+### Weather Observation Station 11: Easy
+
+Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. Your result cannot contain duplicates.
+
+#### [Solution: Oracle](./SQL/Oracle/weather_observation_station_12.sql)
 
 ## Higher Than 75 Marks: Easy
 
