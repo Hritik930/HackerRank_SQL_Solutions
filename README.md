@@ -40,6 +40,7 @@
     - [Weather Observation Station 11](#weather-observation-station-11-easy)
 	- [Weather Observation Station 12](#weather-observation-station-12-easy)
 	- [Weather Observation Station 13](#weather-observation-station-13-easy)
+	- [Weather Observation Station 14](#weather-observation-station-14-easy)
   - [Higher Than 75 Marks](#higher-than-75-marks-easy)
   - [Employees](#employees)
     - [Employee Names](#employee-names-easy)
@@ -194,6 +195,12 @@ Query the list of CITY names from STATION that do not start with vowels and do n
 Query the sum of Northern Latitudes (LAT_N) from STATION having values greater than `38.7880` and less than `137.2345`. Truncate your answer to `4` decimal places.
 
 #### [Solution: Oracle](./SQL/Oracle/weather_observation_station_13.sql)
+
+### Weather Observation Station 14: Easy
+
+Query the greatest value of the Northern Latitudes (LAT_N) from STATION that is less than `137.2345`. Truncate your answer to `4` decimal places.
+
+#### [Solution: Oracle](./SQL/Oracle/weather_observation_station_14.sql)
 
 ## Higher Than 75 Marks: Easy
 
