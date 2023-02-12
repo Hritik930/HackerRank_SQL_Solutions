@@ -41,6 +41,7 @@
 	- [Weather Observation Station 12](#weather-observation-station-12-easy)
 	- [Weather Observation Station 13](#weather-observation-station-13-easy)
 	- [Weather Observation Station 14](#weather-observation-station-14-easy)
+	- [Weather Observation Station 15](#weather-observation-station-15-easy)
   - [Higher Than 75 Marks](#higher-than-75-marks-easy)
   - [Employees](#employees)
     - [Employee Names](#employee-names-easy)
@@ -201,6 +202,12 @@ Query the sum of Northern Latitudes (LAT_N) from STATION having values greater t
 Query the greatest value of the Northern Latitudes (LAT_N) from STATION that is less than `137.2345`. Truncate your answer to `4` decimal places.
 
 #### [Solution: Oracle](./SQL/Oracle/weather_observation_station_14.sql)
+
+### Weather Observation Station 15: Easy
+
+Query the Western Longitude (LONG_W) for the largest Northern Latitude (LAT_N) in STATION that is less than `137.2345`. Round your answer to `4` decimal places.
+
+#### [Solution: MySQL](./SQL/MySQL/weather_observation_station_15.sql)
 
 ## Higher Than 75 Marks: Easy
 
