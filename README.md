@@ -208,6 +208,7 @@ Query the greatest value of the Northern Latitudes (LAT_N) from STATION that is 
 Query the Western Longitude (LONG_W) for the largest Northern Latitude (LAT_N) in STATION that is less than `137.2345`. Round your answer to `4` decimal places.
 
 #### [Solution: MySQL](./SQL/MySQL/weather_observation_station_15.sql)
+#### [Solution: Oracle](./SQL/Oracle/weather_observation_station_15.sql)
 
 ## Higher Than 75 Marks: Easy
 
