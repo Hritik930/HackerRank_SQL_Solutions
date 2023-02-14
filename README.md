@@ -42,6 +42,7 @@
 	- [Weather Observation Station 13](#weather-observation-station-13-easy)
 	- [Weather Observation Station 14](#weather-observation-station-14-easy)
 	- [Weather Observation Station 15](#weather-observation-station-15-easy)
+	- [Weather Observation Station 16](#weather-observation-station-16-easy)
   - [Higher Than 75 Marks](#higher-than-75-marks-easy)
   - [Employees](#employees)
     - [Employee Names](#employee-names-easy)
@@ -209,6 +210,12 @@ Query the Western Longitude (LONG_W) for the largest Northern Latitude (LAT_N) i
 
 #### [Solution: MySQL](./SQL/MySQL/weather_observation_station_15.sql)
 #### [Solution: Oracle](./SQL/Oracle/weather_observation_station_15.sql)
+
+### Weather Observation Station 16: Easy
+
+Query the smallest Northern Latitude (LAT_N) from **STATION** that is greater than `38.7780`. Round your answer to `4` decimal places.
+
+#### [Solution: Oracle](./SQL/Oracle/weather_observation_station_16.sql)
 
 ## Higher Than 75 Marks: Easy
 
