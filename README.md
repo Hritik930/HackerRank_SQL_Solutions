@@ -256,6 +256,11 @@ The STUDENTS table is described as follows:  The Name column only contains upper
 ## Employees
 
 ### Employee Names: Easy
+
+Write a query that prints a list of employee names (i.e.: the name attribute) from the **Employee** table in alphabetical order.
+
+#### [Solution: Oracle](./SQL/Oracle/employee_names.sql)
+
 ### Employee Salaries: Easy
 
 # Aggregation
