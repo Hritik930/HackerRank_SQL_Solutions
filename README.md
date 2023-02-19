@@ -45,6 +45,7 @@
 	- [Weather Observation Station 16](#weather-observation-station-16-easy)
 	- [Weather Observation Station 17](#weather-observation-station-17-easy)
 	- [Weather Observation Station 18](#weather-observation-station-18-medium)
+	- [Weather Observation Station 19](#weather-observation-station-19-medium)
   - [Higher Than 75 Marks](#higher-than-75-marks-easy)
   - [Employees](#employees)
     - [Employee Names](#employee-names-easy)
@@ -227,7 +228,7 @@ Query the Western Longitude (LONG_W) where the smallest Northern Latitude (LAT_N
 
 ### Weather Observation Station 18: Medium
 
-Consider `P subscript(1) (a,b)` and `P subscript(2) (c,d)` and to be two points on a 2D plane.
+Consider `P subscript(1) (a,b)` and `P subscript(2) (c,d)` to be two points on a 2D plane.
 * `a` happens to equal the minimum value in Northern Latitude (LAT_N in **STATION**).
 * `b` happens to equal the minimum value in Western Longitude (LONG_W in **STATION**).
 * `c` happens to equal the maximum value in Northern Latitude (LAT_N in **STATION**).
@@ -236,6 +237,16 @@ Consider `P subscript(1) (a,b)` and `P subscript(2) (c,d)` and to be two points 
 Query the [Manhattan Distance](https://xlinux.nist.gov/dads/HTML/manhattanDistance.html) between points `P subscript(1)` and `P subscript(2)` and round it to a scale of decimal `4` places.
 
 #### [Solution: Oracle](./SQL/Oracle/weather_observation_station_18.sql)
+
+### Weather Observation Station 19: Medium
+
+Consider`P subscript(1) (a,b)` and `P subscript(2) (c,d)` to be two points on a 2D plane where `(a,b)` are the respective 
+minimum and maximum values of Northern Latitude (LAT_N) and `(c,d)` are the respective minimum and maximum values of Western Longitude (LONG_W) in **STATION**.
+
+Query the [Euclidean Distance](https://en.wikipedia.org/wiki/Euclidean_distance) between points `P subscript(1)` 
+and `P subscript(2)` and format your answer to display `4` decimal digits.
+
+#### [Solution: Oracle](./SQL/Oracle/weather_observation_station_19.sql)
 
 ## Higher Than 75 Marks: Easy
 
