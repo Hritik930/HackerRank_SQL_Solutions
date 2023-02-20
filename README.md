@@ -46,6 +46,7 @@
 	- [Weather Observation Station 17](#weather-observation-station-17-easy)
 	- [Weather Observation Station 18](#weather-observation-station-18-medium)
 	- [Weather Observation Station 19](#weather-observation-station-19-medium)
+	- [Weather Observation Station 20](#weather-observation-station-20-medium)
   - [Higher Than 75 Marks](#higher-than-75-marks-easy)
   - [Employees](#employees)
     - [Employee Names](#employee-names-easy)
@@ -248,6 +249,13 @@ and `P subscript(2)` and format your answer to display `4` decimal digits.
 
 #### [Solution: Oracle](./SQL/Oracle/weather_observation_station_19.sql)
 
+### Weather Observation Station 20: Medium
+
+A [median](https://en.wikipedia.org/wiki/Median) is defined as a number separating the higher half of a data set from the lower half. 
+Query the median of the Northern Latitudes (LAT_N) from **STATION** and round your answer to `4` decimal places.
+
+#### [Solution: Oracle](./SQL/Oracle/weather_observation_station_20.sql)
+
 ## Higher Than 75 Marks: Easy
 
 Query the Name of any student in STUDENTS who scored higher than  Marks. Order your output by the last three characters of each name. If two or more students both have names ending in the same last three characters (i.e.: Bobby, Robby, etc.), secondary sort them by ascending ID.
@@ -361,3 +369,4 @@ Write a query to print the pattern P(20).
 Write a query to print all prime numbers less than or equal to . Print your result on a single line, and use the ampersand (&) character as your separator (instead of a space).
 
 #### [Solution: PLSQL](./SQL/Oracle/PLSQL/print_prime_numbers.sql)
+
