@@ -54,6 +54,7 @@
 - [Aggregation](#aggregation)
   - [Revising Aggregations - The Sum Function](#revising-aggregations-\--the-sum-function-easy)
   - [Revising Aggregations - Averages](#revising-aggregations-\--averages-easy)
+  - [Revising Aggregations - The Count Function](#revising-aggregations-the-count-function-easy)
   - [Average Population](#average-population-easy)
 - [Basic Join](#basic-join)
   - [Challenges](#challenges-medium)
@@ -306,7 +307,14 @@ Query the average population for all cities in CITY, rounded down to the nearest
 
 #### [Solution: MySQL](./SQL/MySQL/revising_aggregations_averages.sql)
 
+### Revising Aggregations - The Count Function: Easy
+
+Query a count of the number of cities in CITY having a Population larger than `100,000`.
+
+#### [Solution: Oracle](./SQL/Oracle/revising_aggregations_the_count_function.sql)
+
 # Basic Join
+
 ## Challenges: Medium
 
 Julia asked her students to create some coding challenges. Write a query to print the hacker_id, name, and the total number of challenges created by each student. Sort your results by the total number of challenges in descending order. If more than one student created the same number of challenges, then sort the result by hacker_id. If more than one student created the same number of challenges and the count is less than the maximum number of challenges created, then exclude those students from the result.
