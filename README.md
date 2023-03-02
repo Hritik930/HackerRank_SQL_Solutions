@@ -56,6 +56,7 @@
   - [Revising Aggregations - Averages](#revising-aggregations-\--averages-easy)
   - [Revising Aggregations - The Count Function](#revising-aggregations-the-count-function-easy)
   - [Average Population](#average-population-easy)
+  - [The Blunder](#the-blunder-easy)
 - [Basic Join](#basic-join)
   - [Challenges](#challenges-medium)
 - [Alternative Queries](#alternative-queries)
@@ -312,6 +313,16 @@ Query the average population for all cities in CITY, rounded down to the nearest
 Query a count of the number of cities in CITY having a Population larger than `100,000`.
 
 #### [Solution: Oracle](./SQL/Oracle/revising_aggregations_the_count_function.sql)
+
+### The Blunder: Easy
+
+Samantha was tasked with calculating the average monthly salaries for all employees in the **EMPLOYEES** table, but did not realize 
+her keyboard's `0` key was broken until after completing the calculation. She wants your help finding the difference between her 
+miscalculation (using salaries with any zeros removed), and the actual average salary.
+
+Write a query calculating the amount of error (i.e.: `actual - miscalculated` average monthly salaries), and round it up to the next integer.
+
+#### [Solution: Oracle](./SQL/Oracle/the_blunder.sql)
 
 # Basic Join
 
