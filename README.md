@@ -296,6 +296,14 @@ The CITY table is described as follows:
 | DISTRICT    | VARCHAR2(20) |
 | POPULATION  | NUMBER       |
 
+The EMPLOYEES table is described as follows:
+
+| Column      | Type         |  
+| ----------- | ------------ |
+| ID          | INTEGER      |
+| NAME        | STRING       |
+| SALARY      | INTEGER      |
+
 ### Revising Aggregations - The Sum Function: Easy
 
 Query the total population of all cities in CITY where District is California.
