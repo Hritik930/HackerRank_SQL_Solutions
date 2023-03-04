@@ -276,6 +276,13 @@ The STUDENTS table is described as follows:  The Name column only contains upper
 
 ## Employees
 
+| Column      | Type        |  
+| ----------- | ----------- |
+| EMPLOYEE_ID | INTEGER     |
+| NAME        | STRING      |
+| MONTHS      | INTEGER     |
+| SALARY      | INTEGER     |
+
 ### Employee Names: Easy
 
 Write a query that prints a list of employee names (i.e.: the name attribute) from the **Employee** table in alphabetical order.
@@ -283,6 +290,11 @@ Write a query that prints a list of employee names (i.e.: the name attribute) fr
 #### [Solution: Oracle](./SQL/Oracle/employee_names.sql)
 
 ### Employee Salaries: Easy
+
+Write a query that prints a list of employee names (i.e.: the name attribute) for employees in Employee having a salary greater than 
+`$2000` per month who have been employees for less than `10` months. months. Sort your result by ascending employee_id.
+
+#### [Solution: Oracle](./SQL/Oracle/employee_salaries.sql)
 
 # Aggregation
 
