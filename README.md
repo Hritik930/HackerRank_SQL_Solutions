@@ -346,6 +346,44 @@ Write a query calculating the amount of error (i.e.: `actual - miscalculated` av
 
 # Basic Join
 
+## Population Census: Easy
+Given the **CITY** and **COUNTRY** tables, query the sum of the populations of all cities where the CONTINENT is 'Asia'.
+
+**Note:** CITY.CountryCode and COUNTRY.Code are matching key columns.
+
+### Input Format
+
+The **CITY** and **COUNTRY** tables are described respectively as follows: 
+
+| Field       | Type         |
+| ----------- | ------------ |
+| ID          | NUMBER       |
+| NAME        | VARCHAR2(17) |
+| COUNTRYCODE | VARCHAR2(3)  |
+| DISTRICT    | VARCHAR2(20) |
+| POPULATION  | NUMBER       |
+
+
+| Field          | Type         |
+| -------------- | ------------ |
+| CODE           | VARCHAR2(3)  |
+| NAME           | VARCHAR2(44) |
+| CONTINENT      | VARCHAR2(13) |
+| REGION         | VARCHAR2(25) |
+| SURFACEAREA    | NUMBER       |
+| INDEPYEAR      | VARCHAR2(5)  |
+| POPULATION     | NUMBER       |
+| LIFEEXPECTANCY | VARCHAR2(4)  |
+| GNP            | NUMBER       |  
+| GNPOLD         | VARCHAR2(9)  |
+| LOCALNAME      | VARCHAR2(44) |
+| GOVERNMENTFROM | VARCHAR2(44) |
+| HEADOFSTATE    | VARCHAR2(32) |
+| CAPITAL        | VARCHAR2(4)  |
+| CODE2          | VARCHAR2(2)  |
+
+#### [Solution: Oracle](./SQL/Oracle/population_census.sql)
+
 ## Challenges: Medium
 
 Julia asked her students to create some coding challenges. Write a query to print the hacker_id, name, and the total number of challenges created by each student. Sort your results by the total number of challenges in descending order. If more than one student created the same number of challenges, then sort the result by hacker_id. If more than one student created the same number of challenges and the count is less than the maximum number of challenges created, then exclude those students from the result.
