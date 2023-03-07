@@ -57,6 +57,7 @@
   - [Revising Aggregations - The Count Function](#revising-aggregations-the-count-function-easy)
   - [Average Population](#average-population-easy)
   - [The Blunder](#the-blunder-easy)
+  - [Top Earners](#top-earners-easy)
 - [Basic Join](#basic-join)
   - [Challenges](#challenges-medium)
 - [Alternative Queries](#alternative-queries)
@@ -353,7 +354,7 @@ Write a query calculating the amount of error (i.e.: `actual - miscalculated` av
 
 #### [Solution: Oracle](./SQL/Oracle/the_blunder.sql)
 
-### Top Earners
+### Top Earners: Easy
 
 We define an employee's total earnings to be their monthly `salary x months` worked, 
 and the maximum total earnings to be the maximum total earnings for any employee in the **EMPLOYEE** table. 
