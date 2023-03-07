@@ -316,6 +316,15 @@ The EMPLOYEES table is described as follows:
 | NAME        | STRING       |
 | SALARY      | INTEGER      |
 
+The EMPLOYEE table is described as follows:
+
+| Column      | Type         |  
+| ----------- | ------------ |
+| EMPLOYEE_ID | INTEGER      |
+| NAME        | STRING       |
+| MONTHS      | INTEGER      |
+| SALARY      | INTEGER      |
+
 ### Revising Aggregations - The Sum Function: Easy
 
 Query the total population of all cities in CITY where District is California.
@@ -343,6 +352,15 @@ miscalculation (using salaries with any zeros removed), and the actual average s
 Write a query calculating the amount of error (i.e.: `actual - miscalculated` average monthly salaries), and round it up to the next integer.
 
 #### [Solution: Oracle](./SQL/Oracle/the_blunder.sql)
+
+### Top Earners
+
+We define an employee's total earnings to be their monthly `salary x months` worked, 
+and the maximum total earnings to be the maximum total earnings for any employee in the **EMPLOYEE** table. 
+Write a query to find the maximum total earnings for all employees as well as the total number of employees 
+who have maximum total earnings. Then print these values as `2` space-separated integers.
+
+#### [Solution: Oracle](./SQL/Oracle/top_earners.sql)
 
 # Basic Join
 
