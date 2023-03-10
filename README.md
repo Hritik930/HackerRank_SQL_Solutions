@@ -58,6 +58,7 @@
   - [Average Population](#average-population-easy)
   - [The Blunder](#the-blunder-easy)
   - [Top Earners](#top-earners-easy)
+  - [Japan Population](#japan-population-easy)
 - [Basic Join](#basic-join)
   - [Challenges](#challenges-medium)
 - [Alternative Queries](#alternative-queries)
@@ -362,6 +363,12 @@ Write a query to find the maximum total earnings for all employees as well as th
 who have maximum total earnings. Then print these values as `2` space-separated integers.
 
 #### [Solution: Oracle](./SQL/Oracle/top_earners.sql)
+
+### Japan Population: Easy
+
+Query the sum of the populations for all Japanese cities in **CITY**. The COUNTRYCODE for Japan is **JPN**.
+
+### [Solution: Oracle] (./SQL/Oracle/japan_population.sql)
 
 # Basic Join
 
