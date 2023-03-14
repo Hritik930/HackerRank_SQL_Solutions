@@ -60,6 +60,7 @@
   - [Top Earners](#top-earners-easy)
   - [Japan Population](#japan-population-easy)
   - [Average Population](#average-population-easy)
+  - [Population Density Difference](#population-density-difference-easy)
 - [Basic Join](#basic-join)
   - [Challenges](#challenges-medium)
 - [Alternative Queries](#alternative-queries)
@@ -376,6 +377,12 @@ Query the sum of the populations for all Japanese cities in **CITY**. The COUNTR
 Query the average population for all cities in **CITY**, rounded down to the nearest integer.
 
 #### [Solution: Oracle] (./SQL/Oracle/average_population.sql)
+
+### Population Density Difference: Easy
+
+Query the difference between the maximum and minimum populations in **CITY**.
+
+#### [Solution: Oracle] (./SQL/Oracle/population_density_difference.sql)
 
 # Basic Join
 
