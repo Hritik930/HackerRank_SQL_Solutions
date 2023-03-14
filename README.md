@@ -370,19 +370,19 @@ who have maximum total earnings. Then print these values as `2` space-separated 
 
 Query the sum of the populations for all Japanese cities in **CITY**. The COUNTRYCODE for Japan is **JPN**.
 
-#### [Solution: Oracle] (./SQL/Oracle/japan_population.sql)
+#### [Solution: Oracle](./SQL/Oracle/japan_population.sql)
 
 ### Average Population: Easy
 
 Query the average population for all cities in **CITY**, rounded down to the nearest integer.
 
-#### [Solution: Oracle] (./SQL/Oracle/average_population.sql)
+#### [Solution: Oracle](./SQL/Oracle/average_population.sql)
 
 ### Population Density Difference: Easy
 
 Query the difference between the maximum and minimum populations in **CITY**.
 
-#### [Solution: Oracle] (./SQL/Oracle/population_density_difference.sql)
+#### [Solution: Oracle](./SQL/Oracle/population_density_difference.sql)
 
 # Basic Join
 
