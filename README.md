@@ -51,6 +51,8 @@
   - [Employees](#employees)
     - [Employee Names](#employee-names-easy)
     - [Employee Salaries](#employee-salaries-easy)
+- [Advanced Select](#advanced-select)
+  - [Type of Triangle](#type-of-triangle-easy)
 - [Aggregation](#aggregation)
   - [Revising Aggregations - The Sum Function](#revising-aggregations-\--the-sum-function-easy)
   - [Revising Aggregations - Averages](#revising-aggregations-\--averages-easy)
@@ -299,6 +301,26 @@ Write a query that prints a list of employee names (i.e.: the name attribute) fo
 `$2000` per month who have been employees for less than `10` months. months. Sort your result by ascending employee_id.
 
 #### [Solution: Oracle](./SQL/Oracle/employee_salaries.sql)
+
+# Advanced Select
+
+## Type of Triangle: Easy
+
+| Column      | Type         |  
+| ----------- | ------------ |
+| A           | INTEGER      |
+| B           | INTEGER      |
+| C           | INTEGER      |
+
+Write a query identifying the type of each record in the **TRIANGLES** table using its three side lengths. 
+Output one of the following statements for each record in the table:
+
+* **Equilateral**: It's a triangle with `3` sides of equal length.
+* **Isosceles**: It's a triangle with  `2` sides of equal length.
+* **Scalene**: It's a triangle with  `3` sides of differing lengths.
+* **Not A Triangle**: The given values of A, B, and C don't form a triangle.
+
+#### [Solution: Oracle](./SQL/Oracle/PLSQL/type_of_triangle.sql)
 
 # Aggregation
 
