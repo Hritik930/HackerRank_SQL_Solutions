@@ -53,6 +53,7 @@
     - [Employee Salaries](#employee-salaries-easy)
 - [Advanced Select](#advanced-select)
   - [Type of Triangle](#type-of-triangle-easy)
+  - [Binary Search Tree](#binary-search-tree-medium)
 - [Aggregation](#aggregation)
   - [Revising Aggregations - The Sum Function](#revising-aggregations-\--the-sum-function-easy)
   - [Revising Aggregations - Averages](#revising-aggregations-\--averages-easy)
@@ -321,6 +322,22 @@ Output one of the following statements for each record in the table:
 * **Not A Triangle**: The given values of A, B, and C don't form a triangle.
 
 #### [Solution: Oracle](./SQL/Oracle/PLSQL/type_of_triangle.sql)
+
+## Binary Search Tree: Medium
+
+You are given a table, BST, containing two columns: N and P, where N represents the value of a node in Binary Tree, and P is the parent of N.
+
+| Column      | Type         |  
+| ----------- | ------------ |
+| N           | INTEGER      |
+| P           | INTEGER      |
+
+Write a query to find the node type of Binary Tree ordered by the value of the node. Output one of the following for each node:
+* Root: If node is root node.
+* Leaf: If node is leaf node.
+* Inner: If node is neither root nor leaf node.
+
+#### [Solution: Oracle](./SQL/Oracle/binary_search_tree.sql)
 
 # Aggregation
 
